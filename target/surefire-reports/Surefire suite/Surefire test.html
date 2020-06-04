@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 02 17:42:55 BST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>346 seconds (346577 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.virgingames.testsuite.LoginTest.userShouldNavigateToLoginPage()'><b>userShouldNavigateToLoginPage</b><br>Test class: com.virgingames.testsuite.LoginTest<br/>
+<a href="#Output-1396721535" onClick='toggleBox("Output-1396721535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1396721535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1396721535">
+Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8b5777f3-be79-48e7-9fcd-3aef407d8f42)] -> link text: Login]<br><br/>
+Getting Join Now Text Message : [[FirefoxDriver: firefox on WINDOWS (8b5777f3-be79-48e7-9fcd-3aef407d8f42)] -> link text: Join Now]<br><br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>com.virgingames.testsuite.LoginTest@6d4b1c02</td></tr>
+<tr>
+<td title='com.virgingames.testsuite.LoginTest.userShouldNotLoginWithInValidCredentials()'><b>userShouldNotLoginWithInValidCredentials</b><br>Test class: com.virgingames.testsuite.LoginTest<br/>
+<a href="#Output-1845623216" onClick='toggleBox("Output-1845623216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1845623216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1845623216">
+Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> link text: Login]<br><br/>
+Entering Username : Roger123@gmail.com On Username Field [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> id: field-username]<br><br/>
+Entering password : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> id: field-password]<br><br/>
+Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> xpath: //button[@class='button button-login']]<br><br/>
+ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> xpath: //div[@class='output']]<br><br/>
+</div>
+</td>
+<td></td>
+<td>60</td>
+<td>com.virgingames.testsuite.LoginTest@6d4b1c02</td></tr>
+<tr>
+<td title='com.virgingames.testsuite.LoginTest.userShouldNotLoginWithNullUsername()'><b>userShouldNotLoginWithNullUsername</b><br>Test class: com.virgingames.testsuite.LoginTest<br/>
+<a href="#Output-1783966110" onClick='toggleBox("Output-1783966110", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1783966110" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1783966110">
+Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> link text: Login]<br><br/>
+Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> id: field-username]<br><br/>
+Entering password : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> id: field-password]<br><br/>
+Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> xpath: //button[@class='button button-login']]<br><br/>
+ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> xpath: //div[@class='output']]<br><br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.virgingames.testsuite.LoginTest@6d4b1c02</td></tr>
+<tr>
+<td title='com.virgingames.testsuite.LoginTest.userShouldNotLoginWithNullUsernameAndPassword()'><b>userShouldNotLoginWithNullUsernameAndPassword</b><br>Test class: com.virgingames.testsuite.LoginTest<br/>
+<a href="#Output-1545077099" onClick='toggleBox("Output-1545077099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1545077099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1545077099">
+Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> link text: Login]<br><br/>
+Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> id: field-username]<br><br/>
+Entering password :   On Password Field [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> id: field-password]<br><br/>
+Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> xpath: //button[@class='button button-login']]<br><br/>
+ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> xpath: //div[@class='output']]<br><br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.virgingames.testsuite.LoginTest@6d4b1c02</td></tr>
+</table><p>
+</body>
+</html>

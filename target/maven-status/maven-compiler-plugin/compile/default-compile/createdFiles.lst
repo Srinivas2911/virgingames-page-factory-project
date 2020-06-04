@@ -1,0 +1,7 @@
+com\virgingames\App.class
+com\virgingames\browserselector\BrowserSelector.class
+com\virgingames\pages\LoginPage.class
+com\virgingames\utility\Utility.class
+com\virgingames\basepage\BasePage.class
+com\virgingames\pages\HomePage.class
+com\virgingames\loadproperty\LoadProperty.class

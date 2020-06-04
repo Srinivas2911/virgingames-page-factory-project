@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8b5777f3-be79-48e7-9fcd-3aef407d8f42)] -> link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Getting Join Now Text Message : [[FirefoxDriver: firefox on WINDOWS (8b5777f3-be79-48e7-9fcd-3aef407d8f42)] -> link text: Join Now]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Username : Roger123@gmail.com On Username Field [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> id: field-username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> id: field-password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> xpath: //button[@class='button button-login']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> xpath: //div[@class='output']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> id: field-username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> id: field-password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> xpath: //button[@class='button button-login']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> xpath: //div[@class='output']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> link text: Login]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> id: field-username]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Entering password :   On Password Field [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> id: field-password]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> xpath: //button[@class='button button-login']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> xpath: //div[@class='output']]<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="346577" started-at="2020-06-02T16:42:55Z" finished-at="2020-06-02T16:48:42Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="346577" started-at="2020-06-02T16:42:55Z" finished-at="2020-06-02T16:48:42Z">
+      <class name="com.virgingames.testsuite.LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="openBrowser" is-config="true" duration-ms="40147" started-at="2020-06-02T16:42:55Z" finished-at="2020-06-02T16:43:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="setUpMethod" is-config="true" duration-ms="279" started-at="2020-06-02T16:43:35Z" finished-at="2020-06-02T16:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="userShouldNavigateToLoginPage()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="userShouldNavigateToLoginPage" duration-ms="63615" started-at="2020-06-02T16:43:36Z" finished-at="2020-06-02T16:44:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8b5777f3-be79-48e7-9fcd-3aef407d8f42)] -> link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Getting Join Now Text Message : [[FirefoxDriver: firefox on WINDOWS (8b5777f3-be79-48e7-9fcd-3aef407d8f42)] -> link text: Join Now]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="6521" started-at="2020-06-02T16:44:39Z" finished-at="2020-06-02T16:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="openBrowser" is-config="true" duration-ms="16134" started-at="2020-06-02T16:44:46Z" finished-at="2020-06-02T16:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="setUpMethod" is-config="true" duration-ms="10" started-at="2020-06-02T16:45:02Z" finished-at="2020-06-02T16:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="userShouldNotLoginWithInValidCredentials()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="userShouldNotLoginWithInValidCredentials" duration-ms="60158" started-at="2020-06-02T16:45:02Z" finished-at="2020-06-02T16:46:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Username : Roger123@gmail.com On Username Field [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> id: field-username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> id: field-password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> xpath: //button[@class='button button-login']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (8b57da13-5f5a-4acd-8a3b-7ca949ec077c)] -> xpath: //div[@class='output']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNotLoginWithInValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="3633" started-at="2020-06-02T16:46:02Z" finished-at="2020-06-02T16:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="openBrowser" is-config="true" duration-ms="11609" started-at="2020-06-02T16:46:06Z" finished-at="2020-06-02T16:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="setUpMethod" is-config="true" duration-ms="25" started-at="2020-06-02T16:46:17Z" finished-at="2020-06-02T16:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="userShouldNotLoginWithNullUsername()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="userShouldNotLoginWithNullUsername" duration-ms="59709" started-at="2020-06-02T16:46:17Z" finished-at="2020-06-02T16:47:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> id: field-username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> id: field-password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> xpath: //button[@class='button button-login']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (8c04be33-520b-4889-8612-ff8756944b70)] -> xpath: //div[@class='output']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNotLoginWithNullUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="4815" started-at="2020-06-02T16:47:17Z" finished-at="2020-06-02T16:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="openBrowser" is-config="true" duration-ms="16081" started-at="2020-06-02T16:47:22Z" finished-at="2020-06-02T16:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="setUpMethod()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="setUpMethod" is-config="true" duration-ms="17" started-at="2020-06-02T16:47:38Z" finished-at="2020-06-02T16:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method status="PASS" signature="userShouldNotLoginWithNullUsernameAndPassword()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="userShouldNotLoginWithNullUsernameAndPassword" duration-ms="59847" started-at="2020-06-02T16:47:38Z" finished-at="2020-06-02T16:48:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> link text: Login]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> id: field-username]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Entering password :   On Password Field [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> id: field-password]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on Login Button : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> xpath: //button[@class='button button-login']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[ Getting Error Message Text : [[FirefoxDriver: firefox on WINDOWS (dcdb4fb1-2055-4b83-b627-2ac8bf66567f)] -> xpath: //div[@class='output']]<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNotLoginWithNullUsernameAndPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.virgingames.testsuite.LoginTest@6d4b1c02]" name="tearDown" is-config="true" duration-ms="3883" started-at="2020-06-02T16:48:38Z" finished-at="2020-06-02T16:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.virgingames.testsuite.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

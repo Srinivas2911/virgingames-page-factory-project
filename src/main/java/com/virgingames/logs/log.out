@@ -1,0 +1,21 @@
+2020-06-03 21:06:386 INFO  BrowserSelector :34 - Launching Firefox Browser
+2020-06-03 21:06:158 INFO  HomePage :44 - Clicking on Register Link : Proxy element for: DefaultElementLocator 'By.linkText: Login'
+2020-06-03 21:06:284 INFO  LoginPage :36 -  Getting Join Now Text Message : [[FirefoxDriver: firefox on WINDOWS (870f1762-b6d1-47b9-86e8-baa82bea7976)] -> link text: Join Now]
+2020-06-03 21:06:875 INFO  BrowserSelector :34 - Launching Firefox Browser
+2020-06-03 21:06:477 INFO  HomePage :44 - Clicking on Register Link : Proxy element for: DefaultElementLocator 'By.linkText: Login'
+2020-06-03 21:06:135 INFO  LoginPage :47 - Entering Username : Roger123@gmail.com On Username Field [[FirefoxDriver: firefox on WINDOWS (134404f3-d479-4f35-ab60-84f0fc21dc42)] -> id: field-username]
+2020-06-03 21:06:583 INFO  LoginPage :57 - Entering Username : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (134404f3-d479-4f35-ab60-84f0fc21dc42)] -> id: field-password]
+2020-06-03 21:06:997 INFO  LoginPage :65 - Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (134404f3-d479-4f35-ab60-84f0fc21dc42)] -> xpath: //button[@class='button button-login']]
+2020-06-03 21:06:99 INFO  LoginPage :73 - Clicking Error Message Text : [[FirefoxDriver: firefox on WINDOWS (134404f3-d479-4f35-ab60-84f0fc21dc42)] -> xpath: //div[@class='output']]
+2020-06-03 21:06:70 INFO  BrowserSelector :34 - Launching Firefox Browser
+2020-06-03 21:06:275 INFO  HomePage :44 - Clicking on Register Link : Proxy element for: DefaultElementLocator 'By.linkText: Login'
+2020-06-03 21:06:728 INFO  LoginPage :47 - Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (92c4abe9-7755-46d3-8f08-343d630cb591)] -> id: field-username]
+2020-06-03 21:06:399 INFO  LoginPage :57 - Entering Username : Roger1980 On Password Field [[FirefoxDriver: firefox on WINDOWS (92c4abe9-7755-46d3-8f08-343d630cb591)] -> id: field-password]
+2020-06-03 21:06:765 INFO  LoginPage :65 - Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (92c4abe9-7755-46d3-8f08-343d630cb591)] -> xpath: //button[@class='button button-login']]
+2020-06-03 21:06:795 INFO  LoginPage :73 - Clicking Error Message Text : [[FirefoxDriver: firefox on WINDOWS (92c4abe9-7755-46d3-8f08-343d630cb591)] -> xpath: //div[@class='output']]
+2020-06-03 21:06:433 INFO  BrowserSelector :34 - Launching Firefox Browser
+2020-06-03 21:06:568 INFO  HomePage :44 - Clicking on Register Link : Proxy element for: DefaultElementLocator 'By.linkText: Login'
+2020-06-03 21:06:184 INFO  LoginPage :47 - Entering Username :   On Username Field [[FirefoxDriver: firefox on WINDOWS (479f4d13-41aa-41d1-9b24-a59d84a34fd2)] -> id: field-username]
+2020-06-03 21:06:829 INFO  LoginPage :57 - Entering Username :   On Password Field [[FirefoxDriver: firefox on WINDOWS (479f4d13-41aa-41d1-9b24-a59d84a34fd2)] -> id: field-password]
+2020-06-03 21:06:374 INFO  LoginPage :65 - Clicking on Login Link : [[FirefoxDriver: firefox on WINDOWS (479f4d13-41aa-41d1-9b24-a59d84a34fd2)] -> xpath: //button[@class='button button-login']]
+2020-06-03 21:06:472 INFO  LoginPage :73 - Clicking Error Message Text : [[FirefoxDriver: firefox on WINDOWS (479f4d13-41aa-41d1-9b24-a59d84a34fd2)] -> xpath: //div[@class='output']]
